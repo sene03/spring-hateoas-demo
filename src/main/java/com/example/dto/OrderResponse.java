@@ -1,4 +1,11 @@
 package com.example.dto;
 
-public record OrderResponse() {
+public record OrderResponse(
+        Long id,
+        Long userId,
+        Long productId,
+        String productName,
+        int quantity,
+        int totalPrice
+) {
 }
