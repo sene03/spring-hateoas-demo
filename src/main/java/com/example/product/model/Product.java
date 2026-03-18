@@ -1,5 +1,6 @@
-package com.example.model;
+package com.example.product.model;
 
+import com.example.user.model.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

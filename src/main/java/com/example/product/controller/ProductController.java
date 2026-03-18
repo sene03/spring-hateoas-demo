@@ -1,9 +1,9 @@
-package com.example.controller;
+package com.example.product.controller;
 
-import com.example.dto.ProductRequest;
-import com.example.dto.ProductResponse;
-import com.example.model.Product;
-import com.example.service.ProductService;
+import com.example.product.dto.ProductRequest;
+import com.example.product.dto.ProductResponse;
+import com.example.product.model.Product;
+import com.example.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

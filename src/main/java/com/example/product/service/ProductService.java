@@ -1,11 +1,11 @@
-package com.example.service;
+package com.example.product.service;
 
-import com.example.dto.ProductRequest;
-import com.example.dto.ProductResponse;
-import com.example.model.Product;
-import com.example.model.User;
-import com.example.repository.ProductRepository;
-import com.example.repository.UserRepository;
+import com.example.product.dto.ProductRequest;
+import com.example.product.dto.ProductResponse;
+import com.example.product.model.Product;
+import com.example.user.model.User;
+import com.example.product.repository.ProductRepository;
+import com.example.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
