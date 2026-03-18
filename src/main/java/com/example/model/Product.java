@@ -20,6 +20,9 @@ public class Product {
     private int price;
     private int stock;
     private String category;
-    private Long userId;  // TODO: 나중에 인증 도입시 실제 유저로 교체
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
+    private User user;
 
 }
